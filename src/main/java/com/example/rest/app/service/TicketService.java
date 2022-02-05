@@ -8,7 +8,7 @@ public interface TicketService {
 
     Ticket getId(Long id);
 
-    Ticket createTicket(Ticket ticket);
+    Ticket saveTicket(Ticket ticket);
 
     List<Ticket> findAll();
 
